@@ -15,14 +15,14 @@ else{
 <html>
 <head>
 <title></title>
-<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/hola.css">
 </head>
 <body>
 
   <div id="main_container">
     <p id="sound">Wake</p>
     <div id="circle"></div>
-<input id="search" type="search" placeholder="¿Que libro quieres?">
+<input id="search_login" type="search" placeholder="¿Que libro quieres?">
   </div>
 
   <div id="mySidenav" class="sidenav">
@@ -63,6 +63,12 @@ else{
 </div>
 
 <span class="openNav" onclick="openNav()">&#9776;</span>
+
+<div id="div_upbook">
+
+<img id="book" src="img/50ppi/book.png">
+<a id="up_book">Subir</a>
+</div>
 
 <script src="scri.js"></script>
 </body>
